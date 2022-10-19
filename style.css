@@ -1,0 +1,40 @@
+/* 
+font-family: 'Merriweather', serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Silkscreen', cursive; 
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Oswald:wght@200;300;400;500;600;700&family=Silkscreen:wght@400;700&display=swap');
+
+body{
+    font-family: 'oswald';
+    text-align: center;
+    color: white;
+    margin:0;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+}
+
+#myVideo {
+    position: fixed;
+    /* object-fit: cover; */
+    min-width: 100%;
+    min-height: 100%;
+    left: 0;
+    right: 0;
+    top: -100px;
+    bottom:0;
+    z-index: -1;
+}
+
+.content{
+    background-color: rgba(0, 0, 0, 0.26);
+    margin:-em;
+
+}
+
+.content > * {
+    margin: .2em;
+}
